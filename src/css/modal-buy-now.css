@@ -15,6 +15,8 @@
 }
 .buy-now-backdrop.is-open {
   opacity: 1;
+  transform: translateZ(0);
+  transition: transform 1s, visibility 10s, opacity 250ms;
   visibility: visible;
   pointer-events: auto;
 }
