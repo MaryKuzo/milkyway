@@ -4,4 +4,4 @@ import './buy-now.js';
 import './mobile-menu.js';
 import './swiper.js';
 import './modal-review.js';
-import '/src/modal-subscribe';
+import './src/modal-subscribe';
