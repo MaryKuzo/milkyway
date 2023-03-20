@@ -6,4 +6,4 @@ import './js/mobile-menu.js';
 // import './js/modal-subscribe.js';
 // import './js/modal.js';
 // import './js/swiper.js';
-import './js/slick.min.js';
+import '/js/slick.min.js';
