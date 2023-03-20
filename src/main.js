@@ -1,4 +1,4 @@
-import '/mobile-menu.js';
+
 import '/modal-buy-now.js';
 import '/slick.min.js';
 import '/buy-now.js';
