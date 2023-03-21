@@ -1,9 +1,5 @@
-  import Swiper from './swiper';
-  // import Swiper styles
-  // import 'swiper/css';
 
-
-var swiper2 = new Swiper('.buy-now-slider-container', {
+var mySwiper = new Swiper('.buy-now-slider-container', {
   breakpoints: {
     // when window width is >= 320px
     320: {
