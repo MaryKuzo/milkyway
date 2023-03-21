@@ -1,12 +1,33 @@
+// new Swiper('.buy-now-slider-container');
+const swiper = new Swiper('.buy-now-slider-container', {
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      slidesPerGroup:1,
+      spaceBetween: 16,
+    },
+  },
 
-$(document).ready(function () {
-    $('.buy-now-slider').slick({
-        arrows: false,
-        dots: true,
-        slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000
-    });
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.buy-now-swiper-pagination',
+    clickable: true,  
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
 });
 
