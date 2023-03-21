@@ -15,20 +15,15 @@
     />
     <link
       rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <!-- <link
-      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    /> -->
+    />
     
-    <script type="module" crossorigin src="/milkyway/assets/index-9efb5dd6.js"></script>
-    <link rel="stylesheet" href="/milkyway/assets/index-5fec4839.css">
+    <script type="module" crossorigin src="/milkyway/assets/index-6fc2eb69.js"></script>
+    <link rel="stylesheet" href="/milkyway/assets/index-556c17d6.css">
   </head>
   <body style>
     <!-- Svitlana -->
@@ -710,14 +705,7 @@
 
 
     <!-- MODAL WINDOWS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link
-  href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-  rel="stylesheet"
-/>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-<div class="buy-now-backdrop is-hidden js-buy-now">
+    <div class="buy-now-backdrop is-hidden js-buy-now">
   <div class="buy-now-modal">
     <button type="button" class="buy-now-btn-close js-close-menu-buy">
       <svg class="buy-now-icon-close">
@@ -727,9 +715,9 @@
     <h2 class="buy-now-title">
       Buy <span class="buy-now-title-second">Now</span>
     </h2>
-    <div class="buy-now-slider-container">
-      <div class="buy-now-slider">
-        <div class="buy-now-slider-item">
+    <div class="buy-now-slider-container swiper-container">
+      <ul class="buy-now-slider swiper-wrapper">
+        <li class="buy-now-slider-item swiper-slide">
           <picture>
             <source
               type="image/webp"
@@ -745,8 +733,8 @@
             />
           </picture>
           <p class="buy-now-slider-text">100 g</p>
-        </div>
-        <div class="slider-item">
+        </li>
+        <li class="buy-now-slider-item swiper-slide">
           <picture>
             <source
               type="image/webp"
@@ -762,8 +750,8 @@
             />
           </picture>
           <p class="buy-now-slider-text">200 g</p>
-        </div>
-        <div class="slider-item">
+        </li>
+        <li class="buy-now-slider-item swiper-slide">
           <picture>
             <source
               type="image/webp"
@@ -779,8 +767,10 @@
             />
           </picture>
           <p class="buy-now-slider-text">300 g</p>
-        </div>
-      </div>
+        </li>
+      </ul>
+     
+
     </div>
     <div class="buy-now-image-container">
       <div class="buy-now-picture-container">
@@ -915,11 +905,23 @@
           class="buy-now-message"
         ></textarea>
       </label>
-      <button type="submit" class="buy-now-btn-submit">Submit</button>
+      <button
+        type="submit"
+        class="buy-now-btn-submit js-open-modal-thank"
+        data-modal-open
+      >
+        Submit
+      </button>
     </form>
+     <div class="buy-now-swiper-container">
+      <div class="buy-now-swiper-pagination"></div>
+    </div>
+     </div>
   </div>
 </div>
-
+ <!-- ======================= -->
+  
+    
     
     <div class="review-backdrop is-hidden js-review">
   <div class="review-modal">
@@ -1039,17 +1041,9 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="./js/slick.min.js"></script>
-
-    
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
-
+    
     <!-- <script type="module" src="./js/main-copy.js"></script> -->
   </body>
 </html>
