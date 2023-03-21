@@ -1,5 +1,5 @@
 // new Swiper('.buy-now-slider-container');
-const swiper = new Swiper('.buy-now-slider-container', {
+var mySwiper = new Swiper('.buy-now-slider-container', {
   breakpoints: {
     // when window width is >= 320px
     320: {
@@ -31,7 +31,7 @@ const swiper = new Swiper('.buy-now-slider-container', {
   },
 });
 
-const swiper = new Swiper('.swiper', {
+var mySwiper2 = new Swiper('.swiper', {
   breakpoints: {
     // when window width is >= 320px
     320: {
