@@ -1,4 +1,4 @@
-  import Swiper from 'swiper.js';
+  import Swiper from './swiper';
   // import Swiper styles
   // import 'swiper/css';
 
