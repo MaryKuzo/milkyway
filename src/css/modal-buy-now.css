@@ -257,8 +257,10 @@
 
   .buy-now-swiper-pagination {
     position: absolute;
+    top: 359px;
+    left: 50%;
   }
-  .buy-now-slider-container .buy-now-swiper-pagination {
+  .buy-now-slider-container .swiper-pagination {
     display: flex;
     align-items: center;
     justify-content: center;

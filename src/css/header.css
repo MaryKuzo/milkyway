@@ -116,7 +116,7 @@
 /* HEDER-MODAL-MENU  */
 .header-modal-menu {
   position: fixed;
-  width: 59%;
+  width: 220px;
   height: 100%;
   z-index: 1000;
   top: 0;
@@ -205,11 +205,12 @@
   width: 22px;
   height: 22px;
   stroke: var(--background-secondary-color);
+  fill: transparent;
 }
 
 @media screen and (min-width: 768px) {
   .header-modal-menu {
-    width: 38%;
+    width: 290px;
   }
   .header-modal-menu-container {
     padding-left: 32px;
