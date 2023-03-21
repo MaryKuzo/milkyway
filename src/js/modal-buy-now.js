@@ -1,6 +1,6 @@
-  import Swiper from 'swiper';
+  import Swiper from 'swiper.js';
   // import Swiper styles
-  import 'swiper/css';
+  // import 'swiper/css';
 
 
 const swiper2 = new Swiper('.buy-now-slider-container', {
