@@ -15,7 +15,7 @@ var mySwiper = new Swiper('.buy-now-slider-container', {
 
   // If we need pagination
   pagination: {
-    el: '.buy-now-swiper-pagination',
+    el: '.swiper-pagination',
     clickable: true,  
   },
 
