@@ -3,7 +3,7 @@
   // import 'swiper/css';
 
 
-const swiper2 = new Swiper('.buy-now-slider-container', {
+var swiper2 = new Swiper('.buy-now-slider-container', {
   breakpoints: {
     // when window width is >= 320px
     320: {

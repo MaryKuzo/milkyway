@@ -1,5 +1,5 @@
 
-const Swiper = new Swiper('.swiper', {
+var Swiper = new Swiper('.swiper', {
   breakpoints: {
     // when window width is >= 320px
     320: {
