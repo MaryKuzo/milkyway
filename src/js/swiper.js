@@ -1,5 +1,5 @@
-// new Swiper('.buy-now-slider-container');
-var mySwiper = new Swiper('.buy-now-slider-container', {
+
+var mySwiper2 = new Swiper('.swiper', {
   breakpoints: {
     // when window width is >= 320px
     320: {
@@ -7,6 +7,18 @@ var mySwiper = new Swiper('.buy-now-slider-container', {
       slidesPerGroup:1,
       spaceBetween: 16,
     },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 2,
+      slidesPerGroup:2,
+      spaceBetween: 16
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 3,
+      slidesPerGroup:3,
+      spaceBetween: 28
+    }
   },
 
   // Optional parameters
@@ -31,7 +43,9 @@ var mySwiper = new Swiper('.buy-now-slider-container', {
   },
 });
 
-var mySwiper2 = new Swiper('.swiper', {
+
+
+var mySwiper = new Swiper('.buy-now-slider-container', {
   breakpoints: {
     // when window width is >= 320px
     320: {
@@ -39,18 +53,6 @@ var mySwiper2 = new Swiper('.swiper', {
       slidesPerGroup:1,
       spaceBetween: 16,
     },
-    // when window width is >= 768px
-    768: {
-      slidesPerView: 2,
-      slidesPerGroup:2,
-      spaceBetween: 16
-    },
-    // when window width is >= 1200px
-    1200: {
-      slidesPerView: 3,
-      slidesPerGroup:3,
-      spaceBetween: 28
-    }
   },
 
   // Optional parameters
