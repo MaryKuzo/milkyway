@@ -27,6 +27,7 @@
     <load src="partials/header.html" />
 
     <main>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
       <!-- Loads the specified .html file -->
       <load src="partials/hero.html" />
       <load src="partials/advantages.html" />
@@ -36,12 +37,13 @@
       <load src="partials/top-sellers.html" />
       <load src="partials/reviews.html" />
       <load src="partials/subscribe.html" />
+      <load src="partials/modal-buy-now.html" />
     </main>
 
     <load src="partials/footer.html" />
 
     <!-- MODAL WINDOWS -->
-    <load src="partials/modal-buy-now.html" />
+
     <load src="partials/modal-thank-for-buying.html" />
     <load src="partials/modal-review.html" />
     <load src="partials/modal-thank-for-feedback.html" />
@@ -53,8 +55,11 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module">
+      import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+
+      const swiper = new Swiper(...)
+    </script>
     <script type="module" src="/main.js"></script>
     <!-- <script type="module" src="/js/how-its-made.js"></script> -->
   </body>
