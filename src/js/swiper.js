@@ -1,4 +1,4 @@
-const { default: Swiper } = require("swiper");
+
 
 const sliders = document.querySelectorAll('.swiper');
 
