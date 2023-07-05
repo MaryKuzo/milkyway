@@ -42,16 +42,17 @@
   transform: scale(1);
 }
 
-.review-modal .buy-now-modal-form {
-  margin-bottom: 0;
+.review-modal-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
 }
 
 .review-modal h2 {
   line-height: 1.2;
   text-align: left;
-  max-width: 230px;
-
-  margin-bottom: 32px;
+  width: 255px;
+  max-width: 100%;
 }
 
 .review-modal .buy-now-title-accent {
@@ -72,6 +73,12 @@
 
 /* ____________ADAPTIV REVIEW MODAL TABLET/DESCTOP_______________ */
 
+@media screen and (max-width: 320px) {
+  .review-modal {
+    width: calc(100% - 30px);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .review-modal {
     width: 517px;
@@ -80,15 +87,14 @@
   }
 
   .review-modal h2 {
-    max-width: 298px;
+    width: 298px;
+    max-width: 100%;
     font-size: 24px;
     line-height: 1.16;
-
-    margin-bottom: 40px;
   }
 
-  .review-modal .buy-now-label-input {
-    font-size: 18px;
+  .review-modal-form {
+    margin-top: 40px;
   }
 
   .review-modal .buy-now-message {

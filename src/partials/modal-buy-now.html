@@ -1,4 +1,4 @@
-<div class="buy-now-backdrop is-hidden js-buy-now">
+<div class="buy-now-backdrop js-buy-now">
   <div class="buy-now-modal">
     <button type="button" class="buy-now-btn-close js-close-menu-buy">
       <svg class="buy-now-icon-close">
@@ -8,78 +8,73 @@
     <h2 class="buy-now-title">
       Buy <span class="buy-now-title-second">Now</span>
     </h2>
-    <div class="buy-now-slider-container swiper">
-      <ul class="buy-now-slider swiper-wrapper">
-        <li class="buy-now-slider-item swiper-slide">
-          <div class="buy-now-slide">
-            <picture>
-            <source
-              type="image/webp"
-              srcset="
-                /img/modal/modal-buy-now/black.webp   1x,
-                /img/modal/modal-buy-now/black2x.webp 2x
-              "
-            />
-            <source
-              type="image/png"
-              src="/img/modal/modal-buy-now/chocolate-black.png"
-            />
-            <img
-              src="/img/modal/modal-buy-now/black.webp 1x"
-              alt="chocolate black"
-              width="169"
-            />
-          </picture>
-          <p class="buy-now-slider-text">100 g</p>
-          </div>
-        </li>
-        <li class="buy-now-slider-item swiper-slide">
-          <div class="buy-now-slide"><picture>
-            <source
-              type="image/webp"
-              srcset="
-                /img/modal/modal-buy-now/chocolate-white@1x.webp 1x,
-                /img/modal/modal-buy-now/chocolate-white@2x.webp 2x
-              "
-            />
-            <source
-              type="image/png"
-              src="/img/modal/modal-buy-now/chocolate-milk.png"
-            />
-            <img
-              src="/img/modal/modal-buy-now/chocolate-white@1x.webp 1x"
-              alt="chocolate white"
-            />
-          </picture>
-          <p class="buy-now-slider-text">200 g</p></div>
-        </li>
-        <li class="buy-now-slider-item swiper-slide">
-          <div class="buy-now-slide"><picture>
-            <source
-              type="image/webp"
-              srcset="
-                /img/modal/modal-buy-now/chocolate-milk@1x.webp 1x,
-                /img/modal/modal-buy-now/chocolate-milk@2x.webp 2x
-              "
-            />
-            <source
-              type="image/png"
-              src="/img/modal/modal-buy-now/chocolate-bar.png"
-            />
-            <img
-              src="/img/modal/modal-buy-now/chocolate-milk@1x.webp 1x"
-              alt="chocolate-milk"
-            />
-          </picture>
-          <p class="buy-now-slider-text">300 g</p></div>
-        </li>
-      </ul>
-     
-
-    </div>
-    <div class="buy-now-image-container">
-      <ul class="tablet-image">
-        <li class="buy-now-picture-container">
+    <ul class="buy-now-list buy-now-slider">
+      <li class="buy-now-item buy-now-product">
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              /img/modal/modal-buy-now/chocolate-black.webp    1x,
+              /img/modal/modal-buy-now/chocolate-black@2x.webp 2x
+            "
+            width="167"
+            height="148"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/img/modal/modal-buy-now/chocolate-black.png"
+            alt="chocolate black"
+            width="167"
+            height="148"
+          />
+        </picture>
+        <p class="buy-now-item-text">100 g</p>
+      </li>
+      <li class="buy-now-item buy-now-product">
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              /img/modal/modal-buy-now/chocolate-white.webp    1x,
+              /img/modal/modal-buy-now/chocolate-white@2x.webp 2x
+            "
+            width="167"
+            height="148"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/img/modal/modal-buy-now/chocolate-white.png"
+            alt="chocolate white"
+            width="167"
+            height="148"
+          />
+        </picture>
+        <p class="buy-now-item-text">200 g</p>
+      </li>
+      <li class="buy-now-item buy-now-product">
+        <picture>
+          <source
+            type="image/webp"
+            srcset="
+              /img/modal/modal-buy-now/chocolate-milk.webp    1x,
+              /img/modal/modal-buy-now/chocolate-milk@2x.webp 2x
+            "
+            width="167"
+            height="148"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/img/modal/modal-buy-now/chocolate-milk.png"
+            alt="chocolate milk"
+            width="167"
+            height="148"
+          />
+        </picture>
+        <p class="buy-now-item-text">300 g</p>
+      </li>
+    </ul>
+    <ul class="buy-now-image-container">
+      <li class="buy-now-item buy-now-product">
         <picture>
           <source
             type="image/webp"
@@ -87,19 +82,20 @@
               /img/modal/modal-buy-now/chocolate-black-tablet.webp    1x,
               /img/modal/modal-buy-now/chocolate-black-tablet@2x.webp 2x
             "
-          />
-          <source
-            type="image/png"
-            src="/img/modal/modal-buy-now/cocolate-black.png"
+            width="120"
+            height="107"
+            media="(min-width: 768px)"
           />
           <img
-            src="/img/modal/modal-buy-now/chocolate-white@1x.webp 1x"
+            src="/img/modal/modal-buy-now/chocolate-black.png"
             alt="chocolate black"
+            width="120"
+            height="107"
           />
         </picture>
-        <p class="buy-now-slider-text">200 g</p>
+        <p class="buy-now-item-text">100 g</p>
       </li>
-      <li class="buy-now-picture-container">
+      <li class="buy-now-item buy-now-product">
         <picture>
           <source
             type="image/webp"
@@ -107,19 +103,20 @@
               /img/modal/modal-buy-now/chocolate-white-tablet.webp    1x,
               /img/modal/modal-buy-now/chocolate-white-tablet@2x.webp 2x
             "
-          />
-          <source
-            type="image/png"
-            src="/img/modal/modal-buy-now/cocolate-milk.png"
+            width="120"
+            height="107"
+            media="(min-width: 768px)"
           />
           <img
-            src="/img/modal/modal-buy-now/chocolate-white@1x.webp 1x"
+            src="/img/modal/modal-buy-now/chocolate-white.png"
             alt="chocolate white"
+            width="120"
+            height="107"
           />
         </picture>
-        <p class="buy-now-slider-text">200 g</p>
+        <p class="buy-now-item-text">200 g</p>
       </li>
-      <li class="buy-now-picture-container">
+      <li class="buy-now-item buy-now-product">
         <picture>
           <source
             type="image/webp"
@@ -127,34 +124,35 @@
               /img/modal/modal-buy-now/chocolate-milk-tablet.webp    1x,
               /img/modal/modal-buy-now/chocolate-milk-tablet@2x.webp 2x
             "
-          />
-          <source
-            type="image/png"
-            src="/img/modal/modal-buy-now/chocolate-bar.png"
+            width="120"
+            height="107"
+            media="(min-width: 768px)"
           />
           <img
-            src="/img/modal/modal-buy-now/chocolate-milk@1x.webp 1x"
+            src="/img/modal/modal-buy-now/chocolate-milk.png"
             alt="chocolate milk"
+            width="120"
+            height="107"
           />
         </picture>
-        <p class="buy-now-slider-text">200 g</p>
+        <p class="buy-now-item-text">300 g</p>
       </li>
-      </ul>
-      
-    </div>
+    </ul>
     <form class="buy-now-modal-form">
-      <label class="buy-now-label">
-        <span class="buy-now-label-title">Personal information</span>
-        <div class="buy-now-for-input">
+      <span class="buy-now-label-title">Personal information</span>
+      <div class="buy-now-inputs">
+        <label class="buy-now-first">
           <input
             type="text"
             name="user_name"
             required
-            class="buy-now-label-input buy-now-first"
+            class="buy-now-label-input"
             placeholder="Name"
             pattern="^[a-zA-Zа-яА-Яі-Ії-Ї]+$"
             minlength="2"
           />
+        </label>
+        <label class="buy-now-label">
           <input
             type="text"
             name="user_surname"
@@ -164,8 +162,8 @@
             pattern="^[a-zA-Zа-яА-Яі-Ії-Ї]+$"
             minlength="2"
           />
-        </div>
-      </label>
+        </label>
+      </div>
       <label class="buy-now-label">
         <span class="buy-now-label-title">Email</span>
         <input
@@ -188,20 +186,19 @@
             class="buy-now-label-input buy-now-label-input-phone buy-now-label-input-three"
             placeholder="Phone number"
           />
-          <div class="buy-now-phone-decor">
+          <span class="buy-now-phone-decor">
             <svg class="buy-now-label-icon">
               <use href="/img/icons.svg#ua-flag"></use>
             </svg>
             <span class="buy-now-label-phone-number">+380</span>
-            <!-- <span class="buy-now-line"></span> -->
-          </div>
+          </span>
         </span>
       </label>
       <label class="buy-now-label">
         <span class="buy-now-label-title">Card number</span>
         <span class="buy-now-label-input-cards">
           <input
-            type="number"
+            type="tel"
             name="user-card"
             required
             pattern="^[0-9]{12}"
@@ -230,9 +227,5 @@
         Submit
       </button>
     </form>
-     <div class="buy-now-swiper-pagination"></div>
-    </div>
   </div>
 </div>
- <!-- ======================= -->
-  

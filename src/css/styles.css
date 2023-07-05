@@ -6,9 +6,20 @@
 */
 @import url('./reset.css');
 @import url('./base.css');
-
+@import url('./scrollbar-custom.css');
+@import url('./slick-slider.css');
+@import url('./header.css');
 @import url('./hero.css');
+@import url('./advantages.css');
+@import url('./unique-components.css');
+@import url('./how-its-made.css');
+@import url('./our-products.css');
+@import url('./top-sellers.css');
 @import url('./reviews.css');
-
+@import url('./subscribe.css');
+@import url('./footer.css');
 /* MODAL */
 @import url('./modal-buy-now.css');
+@import url('./modal-review.css');
+@import url('./modal-subscribe.css');
+@import url('./modal-thank.css');
